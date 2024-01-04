@@ -1,3 +1,53 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url('images/cow.jpg');
+    height:100vh;                 /* vh stands for viewport height. */
+    background-size: cover;
+    background-position: bottom center;
+}
+.hero h1{
+    color:azure;
+    font-size: 80px;
+    text-align: center;   /*  The text-align property is used to set the horizontal alignment of a text. */
+    font-weight:100px;
+    padding-top:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+
+}
+.article{
+    width: 80%;
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 25px;
+    border-color: brown;
+    border-width: 10px;
+    border-style: solid;
+    font-size: 10px;
+}
+.article h1{
+    font-size:25px ;
+    text-align: center;
+    border-width:2px;
+    border-style: solid;
+    border-color: yellow;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:10;
+    padding:20px;
+    
+
+
+}
+.article p{
+    padding: 10px;    /*px fixed,em ter font,size esob jaiga nei parent theke. rem root theke kaj kore */
+    line-height: 2em;
+    
 }
